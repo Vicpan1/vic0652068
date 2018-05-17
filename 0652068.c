@@ -43,7 +43,7 @@ int main(int argc, char *argv[],const char * str) {
 	do{
 		printf("\n得分玩家編號：");
 		scanf("%d",&state);
-		i = 0;                                         						  //判斷是否有此玩家 
+		i = 0;                                         						  //判斷是否有此玩家 ! 
 		score1();
 		score2();
 		if(i==0){
